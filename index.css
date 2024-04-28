@@ -44,4 +44,32 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: hsla(108, 35%, 43%, 0.2);
+  padding: 5px;
+  width: 400px;
+  height: 50px;
+  border-radius: 50px;
+  box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.2),
+    -6px -6px 5px hsla(108, 35%, 43%, 0.1);
+  position: relative;
+}
+img {
+  width: 40px;
+  cursor: pointer;
+  position: absolute;
+}
+#search {
+  left: 20px;
+}
+#microphone {
+  right: 20px;
+}
+#input {
+  padding: 5px;
+  font-size: 1.2rem;
+  font-weight: 450;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: hsla(260, 59%, 24%, 0.777);
 }
