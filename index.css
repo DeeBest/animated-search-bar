@@ -10,8 +10,8 @@ body {
   min-width: 100vw;
   display: flex;
   flex-direction: column;
-  background-color: #4a6267;
-  color: #bdc6ae;
+  background-color: hsla(108, 35%, 43%, 0.7);
+  color: hsla(260, 59%, 24%, 0.777);
 }
 header,
 body,
@@ -39,4 +39,9 @@ main {
 footer {
   font-size: 1.4rem;
   font-weight: bold;
+}
+#search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
