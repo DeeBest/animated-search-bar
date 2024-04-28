@@ -52,6 +52,7 @@ footer {
   box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.2),
     -6px -6px 5px hsla(108, 35%, 43%, 0.1);
   position: relative;
+  transition: width 500ms ease-in-out;
 }
 img {
   width: 40px;
@@ -63,13 +64,28 @@ img {
 }
 #microphone {
   right: 20px;
+  transition: width 400ms ease-in-out;
+  transition-delay: 550ms;
 }
 #input {
   padding: 5px;
   font-size: 1.2rem;
-  font-weight: 450;
+  font-weight: 540;
   border: none;
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
   color: hsla(260, 59%, 24%, 0.777);
+  outline: none;
+  width: 70%;
+  transition: width 400ms ease-in-out;
+  transition-delay: 550ms;
+}
+.active#search-bar-container {
+  width: 75px;
+}
+.active #microphone {
+  width: 0;
+}
+.active #input {
+  width: 0;
 }
